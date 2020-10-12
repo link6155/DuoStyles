@@ -1,0 +1,92 @@
+div.js-app-columns.app-columns.horizontal-flow-container.without-tweet-drag-handles {
+    padding-left: 0;
+}
+
+.column-nav-flyout {
+    visibility: hidden;
+}
+
+i.js-column-drag-handle.is-movable.column-drag-handle.pull-left.sprite.sprite-drag-vertical {
+    display: none;
+}
+
+@media only screen and (min-width: 1000px) {
+    .js-modal-inner.mdl.margin-v--20.s-fluid.prf.s-tall-fixed.s-profile {
+        margin-left: 574px;
+    }
+    .open-modal {
+        z-index: 9999;
+    }
+    .js-modal-panel.mdl.s-tall-fixed {
+        width: 1000px;
+        position: relative;
+    }
+    h3.mdl-header-title.js-header-title {
+        text-align: left;
+    }
+    .mdl-column-med {
+        width: 468px;
+        padding-right: 34px;
+    }
+    .column:nth-child(1) {
+        position: fixed;
+        left: 573px;
+        z-index: 5000;
+        width: 540px !important;
+    }
+    div.js-modal-context.js-click-trap.overlay.overlay-super.scroll-v {
+        z-index: 9999;
+    }
+    .column {
+        width: 480px !important;
+    }
+    .s-inreply {
+        width: 520px;
+        margin-left: 578px;
+    }
+    #container {
+        width: 480px;
+    }
+    .settings-modal {
+        z-index: 9999;
+    }
+    .mdl-column-sml {
+        width: 322px;
+    }
+    .fixed-width-label {
+        width: 60px;
+    }
+    .js-column-nav-menu-item:first-child {
+        visibility: hidden;
+    }
+    div.js-column-nav-list {
+        margin-top: -48px;
+    }
+    .mdl.s-full {
+        width: 1000px;
+        height: 664px;
+        top: 10px;
+    }
+    div.item-box.js-tweet-box {
+        text-align: left;
+        width: 400px;
+        left: 310px;
+        bottom: 280px;
+    }
+
+    .med-embeditem {
+        left: 16px;
+        width: 45%;
+        height: 90%;
+        top: 10px;
+    }
+    .js-media-native-video {
+        width: 100%
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    .column {
+        width: 480px !important;
+    }
+}
